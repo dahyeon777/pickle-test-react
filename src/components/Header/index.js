@@ -2,7 +2,7 @@ import React from "react";
 import "./index.css";
 import icon from "./icon_1.png";
 
-function FirstPageHeader() {
+function Header() {
   return (
     <header>
       <div className="header_top_bar">
@@ -28,4 +28,4 @@ function FirstPageHeader() {
   );
 }
 
-export default FirstPageHeader;
+export default Header;

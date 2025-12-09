@@ -33,6 +33,24 @@ function FirstPageMain() {
           <div className="grid-item">
             <img src={pic3} alt="테스트 이미지 6" />
           </div>
+          <div className="grid-item">
+            <img src={pic1} alt="테스트 이미지 4" />
+          </div>
+          <div className="grid-item">
+            <img src={pic2} alt="테스트 이미지 5" />
+          </div>
+          <div className="grid-item">
+            <img src={pic3} alt="테스트 이미지 6" />
+          </div>
+          <div className="grid-item">
+            <img src={pic1} alt="테스트 이미지 4" />
+          </div>
+          <div className="grid-item">
+            <img src={pic2} alt="테스트 이미지 5" />
+          </div>
+          <div className="grid-item">
+            <img src={pic3} alt="테스트 이미지 6" />
+          </div>
         </div>
       </main>
     </>

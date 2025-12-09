@@ -3,6 +3,7 @@ header {
   justify-content: space-between; /* 왼쪽 끝 + 오른쪽 끝 정렬*/
   align-items: center; /* 수직 중앙 정렬 (또는 */
   flex-wrap: wrap;
+  background-color: none;
 }
 .header_top_bar {
   display: flex;

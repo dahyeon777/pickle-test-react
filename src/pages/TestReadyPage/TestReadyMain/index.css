@@ -1,0 +1,10 @@
+#img_test_main {
+  width: 500px;
+  height: 500px;
+  border-radius: 30px;
+  margin-top: 80px;
+  border: 8px;
+  border-color: rgb(255, 255, 255);
+  border-style: solid;
+}
+
