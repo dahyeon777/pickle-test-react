@@ -1,4 +1,4 @@
-import testImg from "./test_img_test.png";
+import testImg from "../../../img/test_ready_img/f_job.png";
 import "./index.css";
 
 function TestReadyMain() {

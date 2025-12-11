@@ -1,5 +1,4 @@
 .grid-container {
-  /* background-color: #b1f293; */
   background-color: #ffffff;
   display: grid;
 
@@ -18,7 +17,8 @@
 }
 
 .grid-item {
-  min-height: 150px;
+  padding-top: 100%;
+  position: relative;
 }
 
 .grid-item img {
@@ -26,8 +26,14 @@
   border-color: #518c359e;
   border-width: 2px;
   border-radius: 8px;
+
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
-  height: auto;
+  height: 100%;
+
+  object-fit: cover;
   display: block;
 }
 

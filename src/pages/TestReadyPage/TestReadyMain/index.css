@@ -1,10 +1,9 @@
 #img_test_main {
-  width: 500px;
-  height: 500px;
+  width: 480px;
+  height: 480px;
   border-radius: 30px;
   margin-top: 80px;
   border: 8px;
-  border-color: rgb(255, 255, 255);
-  border-style: solid;
+  border-color: #365a26;
+  border-style: double;
 }
-
