@@ -10,7 +10,7 @@ function App() {
       <Header></Header>
       <Routes>
         <Route path="/" element={<FirstPageContainer />} />
-        <Route path="/2" element={<TestReadyPageContainer />} />
+        <Route path="/test/:testId" element={<TestReadyPageContainer />} />
       </Routes>
     </div>
   );
