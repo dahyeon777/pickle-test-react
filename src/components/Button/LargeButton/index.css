@@ -38,9 +38,3 @@ button:active {
   transform: translateY(1px);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2), 0 1px 10px rgba(81, 140, 53, 0.5);
 }
-
-/* 클릭(Active) 시 효과: 실제로 눌리는 듯한 느낌 */
-button:active {
-  transform: translateY(1px); /* 아래로 눌리는 효과 */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2), 0 1px 10px rgba(167, 224, 99, 0.5);
-}

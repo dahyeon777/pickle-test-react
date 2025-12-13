@@ -5,8 +5,19 @@ import pic4 from "../../../img/test_ready_img/gemstone.png";
 import pic5 from "../../../img/test_ready_img/pre_life.png";
 import hero from "../../../img/hero_text_img.png";
 import "./index.css";
+import { Link } from "react-router-dom";
+
+const list = [pic1, pic2, pic4, pic5, pic1, pic2, pic4];
 
 function FirstPageMain() {
+  const imageList = list.map((imagePath, index) => (
+    <div className="grid-item" key={index}>
+      <Link to="/2">
+        <img src={imagePath} alt="테스트이미지" />
+      </Link>
+    </div>
+  ));
+
   return (
     <>
       <div className="image_center">
@@ -15,38 +26,7 @@ function FirstPageMain() {
       <section className="section"></section>
 
       <main>
-        <div className="grid-container">
-          <div className="grid-item">
-            <img src={pic1} alt="테스트 이미지1" />
-          </div>
-          <div className="grid-item">
-            <img src={pic2} alt="테스트 이미지 2" />
-          </div>
-          <div className="grid-item">
-            <img src={pic1} alt="테스트 이미지 3" />
-          </div>
-          <div className="grid-item">
-            <img src={pic4} alt="테스트 이미지 4" />
-          </div>
-          <div className="grid-item">
-            <img src={pic5} alt="테스트 이미지 5" />
-          </div>
-          <div className="grid-item">
-            <img src={pic1} alt="테스트 이미지1" />
-          </div>
-          <div className="grid-item">
-            <img src={pic2} alt="테스트 이미지 2" />
-          </div>
-          <div className="grid-item">
-            <img src={pic2} alt="테스트 이미지 3" />
-          </div>
-          <div className="grid-item">
-            <img src={pic4} alt="테스트 이미지 4" />
-          </div>
-          <div className="grid-item">
-            <img src={pic5} alt="테스트 이미지 5" />
-          </div>
-        </div>
+        <div className="grid-container">{imageList}</div>
       </main>
     </>
   );
