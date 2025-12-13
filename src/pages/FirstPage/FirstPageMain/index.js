@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 function FirstPageMain() {
   const imageList = testDataList.map(({ path, id }, index) => (
     <div className="grid-item" key={index}>
-      <Link to={`/test/${id}`}>
+      <Link to={`/test_ready/${id}`}>
         <img src={path} alt="테스트이미지" />
       </Link>
     </div>

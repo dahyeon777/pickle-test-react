@@ -1,12 +1,15 @@
 import React from "react";
 import "./index.css";
 import icon from "./icon_1.png";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
     <header>
       <div className="header_top_bar">
-        <p>당신은 어떤 피클일까요? 개성을 톡 쏘게, 지금 바로 Test~!</p>
+        <Link to="/">
+          <p>당신은 어떤 피클일까요? 개성을 톡 쏘게, 지금 바로 Test~!</p>
+        </Link>
       </div>
       <nav className="main_nav">
         <ul>

@@ -3,6 +3,7 @@ button {
   display: inline-block;
   padding: 15px 130px;
   margin: 10px;
+  width: 480px;
 
   /* 2. 배경과 색상: 짙은 초록색 기반으로 변경 */
   background: #ffffff;

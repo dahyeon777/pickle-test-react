@@ -1,9 +1,9 @@
 header {
   display: flex;
-  justify-content: space-between; 
-  align-items: center; 
+  justify-content: space-between;
+  align-items: center;
   flex-wrap: wrap;
-  background-color: none;
+  background-color: transparent;
 }
 .header_top_bar {
   display: flex;
@@ -13,6 +13,10 @@ header {
   border-style: none none dotted none;
   border-width: 2px;
   border-color: #ffffff;
+}
+.header_top_bar a {
+  text-decoration: none;
+  color: inherit;
 }
 
 .main_nav {
@@ -55,4 +59,3 @@ header {
     margin-left: 8px;
   }
 }
-
