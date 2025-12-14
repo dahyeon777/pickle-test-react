@@ -1,6 +1,5 @@
 import pic3 from "../img/test_ready_img/dessert.png";
 
-
 export const testData3 = {
   id: 3,
   path: pic3,
@@ -251,7 +250,7 @@ export const testData3 = {
         },
         {
           optionId: "B",
-          text: "남긴 걸 보며 아쉬워하지만, 일단 지금은 포기한다.)",
+          text: "남긴 걸 보며 아쉬워하지만, 일단 지금은 포기한다.",
           score: { P_score: 2 },
         },
         {
