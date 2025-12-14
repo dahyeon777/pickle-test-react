@@ -73,7 +73,7 @@ function TestResultMain() {
           당신은 <strong style={{ color: "#333" }}>{resultData.title}</strong>
           입니다!
         </h2>
-        {currentTest.path && (
+        {resultData.result && (
           <img
             id="result_image"
             src={resultData.result}

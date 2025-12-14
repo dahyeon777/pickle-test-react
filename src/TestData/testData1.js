@@ -79,7 +79,7 @@ export const testData1 = {
       options: [
         {
           optionId: "A",
-          text: "보수가 좋으니 일단 몸으로 부딪쳐보며 방법을 찾는다. (즉흥적 해결)",
+          text: "보수가 좋으니 일단 몸으로 부딪쳐보며 방법을 찾는다.",
           score: { P_score: 2 },
         },
         {
@@ -105,22 +105,22 @@ export const testData1 = {
       options: [
         {
           optionId: "A",
-          text: "“이번 전투에서 네 검술 동작이 흔들렸어. 다음엔 이렇게 해봐.” ",
+          text: "“이번 전투에서 네 검술 동작이 흔들렸어. 다음엔 이렇게 해봐.”",
           score: { T_score: 2 },
         },
         {
           optionId: "B",
-          text: "“다치지 않은 게 중요해. 너는 우리에게 꼭 필요한 존재야.” ",
+          text: "“다치지 않은 게 중요해. 너는 우리에게 꼭 필요한 존재야.”",
           score: { F_score: 1 },
         },
         {
           optionId: "C",
-          text: "“힘든 싸움이었지? 오늘 밤은 맛있는 술 마시면서 잊어버리자!” ",
+          text: "“힘든 싸움이었지? 오늘 밤은 맛있는 술 마시면서 잊어버리자!”",
           score: { E_score: 1 },
         },
         {
           optionId: "D",
-          text: "묵묵히 옆에 있어주거나, 조용히 회복 물약을 건넨다. ",
+          text: "묵묵히 옆에 있어주거나, 조용히 회복 물약을 건넨다.",
           score: { I_score: 1 },
         },
       ],
