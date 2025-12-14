@@ -59,7 +59,6 @@ function TestResultMain() {
     >
       <h1>✨ {currentTest.title} 결과 ✨</h1>
 
-      {/* 최종 MBTI와 디저트 제목 */}
       <div
         className="result_title_section"
         style={{
@@ -74,25 +73,23 @@ function TestResultMain() {
           당신은 <strong style={{ color: "#333" }}>{resultData.title}</strong>
           입니다!
         </h2>
-
-        {/* {currentTest.path && (
+        {currentTest.path && (
           <img
-            src={currentTest.path}
+            id="result_image"
+            src={resultData.result}
             alt={currentTest.title}
-            style={{ width: "150px", marginTop: "10px" }}
+            style={{
+              width: "300px",
+              marginTop: "10px",
+              marginBottom: "10px",
+              border: "2px solid #ffcc00",
+              borderRadius: "15px",
+            }}
           />
-        )} */}
-      </div>
-
-      {/* 디저트 설명 */}
-      <div
-        className="result_description"
-        style={{ textAlign: "left", lineHeight: "1.6", marginBottom: "30px" }}
-      >
+        )}
         <p id="description">{resultData.description}</p>
       </div>
 
-      {/* 점수 상세 정보 (Scores) */}
       <div
         className="score_details"
         style={{
