@@ -39,3 +39,10 @@ button:active {
   transform: translateY(1px);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2), 0 1px 10px rgba(81, 140, 53, 0.5);
 }
+
+button[disabled] {
+  background-color: #e0e0e0; /* 회색 계열 */
+  color: black;
+  cursor: not-allowed; /* 커서를 금지 표시로 */
+  opacity: 0.7; /* 약간 투명하게 */
+}

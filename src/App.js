@@ -4,6 +4,7 @@ import FirstPageContainer from "./pages/FirstPage/FirstPageContainer";
 import TestReadyPageContainer from "./pages/TestReadyPage/TestReadyPageContainer";
 import { Route, Routes } from "react-router-dom";
 import TestStartContainer from "./pages/TestStartPage/TestStartContainer";
+import TestResultContainer from "./pages/TestResultPage/TestResultContainer";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           path="/test_start/:testStartId"
           element={<TestStartContainer />}
         />
+        <Route path="/result/:testStartId/:finalMbti" element={<TestResultContainer />} />
       </Routes>
     </div>
   );
