@@ -99,7 +99,7 @@ function TestStartAnswer() {
       <ProgressBar current={currentProgress} total={totalQuestions} />
 
       <div className="radio_frame">
-        <h2>{currentTest.title}</h2>
+        <h2 className="answer_title">{currentTest.title}</h2>
         <h3>
           Q{currentQuestion.questionId}. {currentQuestion.text}
         </h3>

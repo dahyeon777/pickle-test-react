@@ -46,7 +46,7 @@ function TestResultMain() {
       <h1>✨ {currentTest.title} 결과 ✨</h1>
 
       <div className="result_title_section">
-        <h2>
+        <h2 className="result_title">
           당신은 "<strong style={{ color: "#333" }}>{resultData.title}</strong>"
           입니다!
         </h2>
