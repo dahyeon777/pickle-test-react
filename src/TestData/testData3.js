@@ -285,7 +285,7 @@ export const testData3 = {
   // 결과 데이터도 여기에 추가할 수 있습니다.
   results: {
     INTJ: {
-      result: result3,
+      result: result16,
       title: "완벽한 클래식 타르트",
       description:
         "깊이 있는 맛과 완벽한 구조를 추구하는 당신. 빈틈없는 계획과 논리로 삶을 설계하며, 오차 없는 만족감을 추구하는 분석가 디저트입니다.",

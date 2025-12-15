@@ -2,7 +2,7 @@
   /* background-color: #ffffff; */
   width: auto;
   height: 480px;
-  margin: 80px auto 0 auto;
+  margin: 10px auto 0 auto;
   padding: 10px;
 }
 
@@ -10,13 +10,13 @@ h2 {
   color: #365a26;
 }
 h3 {
-  margin-top: 100px;
+  margin-top: 20px;
   font-size: 1.4rem;
 }
 
 .answer_option {
   font-size: 1.3rem;
-  margin: 60px 0px 30px 0px;
+  margin: 0px 0px 10px 0px;
   display: flex;
   flex-direction: column; /* 항목들을 수직으로 배치 */
 
