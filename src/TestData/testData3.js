@@ -1,4 +1,20 @@
 import pic3 from "../img/test_ready_img/dessert.png";
+import result1 from "../img/dessert_test/01.png";
+import result2 from "../img/dessert_test/02.png";
+import result3 from "../img/dessert_test/03.png";
+import result4 from "../img/dessert_test/04.png";
+import result5 from "../img/dessert_test/05.png";
+import result6 from "../img/dessert_test/06.png";
+import result7 from "../img/dessert_test/07.png";
+import result8 from "../img/dessert_test/08.png";
+import result9 from "../img/dessert_test/09.png";
+import result10 from "../img/dessert_test/10.png";
+import result11 from "../img/dessert_test/11.png";
+import result12 from "../img/dessert_test/12.png";
+import result13 from "../img/dessert_test/13.png";
+import result14 from "../img/dessert_test/14.png";
+import result15 from "../img/dessert_test/15.png";
+import result16 from "../img/dessert_test/16.png";
 
 export const testData3 = {
   id: 3,
@@ -269,82 +285,98 @@ export const testData3 = {
   // 결과 데이터도 여기에 추가할 수 있습니다.
   results: {
     INTJ: {
+      result: result3,
       title: "완벽한 클래식 타르트",
       description:
         "깊이 있는 맛과 완벽한 구조를 추구하는 당신. 빈틈없는 계획과 논리로 삶을 설계하며, 오차 없는 만족감을 추구하는 분석가 디저트입니다.",
     },
     INTP: {
+      result: result15,
       title: "무설탕/비건 대체 아이스크림",
       description:
         "일반적이지 않은 조합과 깊은 탐구를 즐기는 당신. 논리적이지만 새로운 아이디어에 열려 있으며, 건강과 원리를 모두 따지는 사색가 디저트입니다.",
     },
     ENTJ: {
+      result: result14,
       title: "화려한 3단 케이크",
       description:
         "시선을 압도하는 존재감과 확실한 목표 의식을 가진 당신. 모든 일을 주도하며 강력한 리더십으로 목표를 실현하는 지휘관 디저트입니다.",
     },
     ENTP: {
+      result: result2,
       title: "수제 막걸리 푸딩",
       description:
         "예측 불가능하고 기발한 아이디어의 소유자. 평범함을 거부하고 독창적인 조합을 시도하며, 세상에 없는 새로운 맛을 창조하는 변론가 디저트입니다.",
     },
     INFJ: {
+      result: result13,
       title: "마카롱",
       description:
         "겉은 화려하지 않아도 속은 깊은 공감과 이상을 담고 있는 당신. 타인에게 긍정적인 영향을 주고, 섬세한 감정의 조화를 중요시하는 옹호자 디저트입니다.",
     },
     INFP: {
+      result: result12,
       title: "오래된 레시피의 마들렌",
       description:
         "소박한 외관 속에 깊은 감성과 가치를 지닌 당신. 자신의 내면의 기준을 중요시하며, 잔잔한 감동을 주는 소중한 중재자 디저트입니다.",
     },
     ENFJ: {
+      result: result8,
       title: "따뜻한 컵케이크",
       description:
         "친근하고 다정하며, 주변 사람들에게 안정과 활력을 주는 당신. 모두가 행복하길 바라며 따뜻한 온기를 나누는 선지자 디저트입니다.",
     },
     ENFP: {
+      result: result3,
       title: "토핑 가득한 와플",
       description:
         "다채로운 매력과 호기심으로 가득 찬 당신. 자유롭고 즉흥적으로 삶의 재미를 찾아다니며, 예측 불가한 즐거움을 선사하는 활동가 디저트입니다.",
     },
     ISTJ: {
+      result: result11,
       title: "단단한 정통 초콜릿",
       description:
         "변치 않는 신뢰와 책임감을 상징하는 당신. 원칙을 중시하고 묵묵히 자신의 임무를 수행하며, 믿음을 주는 현실주의자 디저트입니다.",
     },
     ISFJ: {
+      result: result10,
       title: "오리지널 플레인 스콘",
       description:
         "자극적이지 않고 편안함을 주는 당신. 주변을 조용히 돌보며 안정적인 환경을 만드는 데 헌신하는 수호자 디저트입니다.",
     },
     ESTJ: {
+      result: result9,
       title: "깔끔한 에스프레소",
       description:
         "복잡한 장식 없이 명료하고 효율성을 추구하는 당신. 목표 달성을 위해 체계적으로 움직이며, 결과를 중시하는 경영자 디저트입니다.",
     },
     ESFJ: {
+      result: result1,
       title: "대용량 파티 브라우니",
       description:
         "사교성이 뛰어나고, 모두에게 기쁨을 주기 위해 노력하는 당신. 주변 사람들과의 조화를 최우선으로 생각하는 친선 도모자 디저트입니다.",
     },
     ISTP: {
-      title: "다크 로스팅 원두",
+      result: result7,
+      title: "쌀과자",
       description:
         "단순하고 직관적이며, 복잡한 감정보다는 실용적인 결과와 과정을 중시하는 당신. 쿨하고 능숙하게 상황을 다루는 장인 디저트입니다.",
     },
     ISFP: {
-      title: "예술적인 앙금 플라워 떡",
+      result: result6,
+      title: "예술적인 앙금 플라워 떡케이크",
       description:
         "섬세한 감각과 미적 재능으로 자신의 감정을 아름답게 표현하는 당신. 유연하고 자유로운 영혼의 모험가 디저트입니다.",
     },
     ESTP: {
-      title: "핫한 길거리 크로플",
+      result: result5,
+      title: "팡팡 터지는 팝콘",
       description:
         "즉흥적이고 에너지가 넘치며, 늘 새로운 트렌드의 중심에 있는 당신. 현장에서 행동하고 스릴을 즐기는 사업가 디저트입니다.",
     },
     ESFP: {
-      title: "톡톡 터지는 젤리 케이크",
+      result: result4,
+      title: "새콤한 맛의 젤리푸딩",
       description:
         "밝고 긍정적이며, 주변에 즐거움을 선사하는 당신. 순간을 즐기고 파티를 주도하는 자유로운 영혼의 연예인 디저트입니다.",
     },

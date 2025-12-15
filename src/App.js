@@ -20,7 +20,7 @@ function App() {
           path="/test_start/:testStartId"
           element={<TestStartContainer />}
         />
-        <Route path="/result/:testStartId/:finalMbti" element={<TestResultContainer />} />
+        <Route path="/result/:testStartId/:finalResult" element={<TestResultContainer />} />
       </Routes>
     </div>
   );

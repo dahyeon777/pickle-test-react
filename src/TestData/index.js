@@ -5,9 +5,9 @@ import { testData4 } from "./testData4";
 import { testData5 } from "./testData5";
 
 export const AllTestQuestionsData = [
-  testData1,
-  testData2,
-  testData3,
+  testData2, //오늘의 운세
+  testData3, //디저트
+  testData1, //판타지 직업
   testData4,
   testData5,
 ];
