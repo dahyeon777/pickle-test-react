@@ -1,25 +1,12 @@
-.radio_background {
-  /* background-color: #ffffff; */
-  width: auto;
-  height: 480px;
-  margin: 10px auto 0 auto;
-  padding: 10px;
+.radio_frame {
+  margin: 30px 0px;
 }
 
 h2 {
+  margin-top: 80px;
   color: #365a26;
 }
 h3 {
   margin-top: 20px;
   font-size: 1.4rem;
-}
-
-.answer_option {
-  font-size: 1.3rem;
-  margin: 0px 0px 10px 0px;
-  display: flex;
-  flex-direction: column; /* 항목들을 수직으로 배치 */
-
-  /* 항목 사이에 10px 간격을 자동으로 적용 (최신 CSS 방식) */
-  gap: 10px;
 }

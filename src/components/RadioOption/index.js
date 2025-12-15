@@ -1,15 +1,10 @@
-import React from 'react';
-
+import "./index.css";
 
 function RadioOption({ optionId, text, name, onChange, checked }) {
-  // name: 같은 질문 그룹임을 나타내는 이름 (라디오 버튼은 name이 같아야 하나만 선택됨)
-  // optionId: 선택지의 고유 값 (A, B, C, D 등)
-  // text: 사용자에게 보여줄 답변 내용
-  
   const uniqueId = `option-${name}-${optionId}`; // HTML id는 고유해야 합니다.
 
   return (
-    <div>
+    <div className="radio_option">
       <input
         type="radio"
         id={uniqueId}
@@ -18,7 +13,7 @@ function RadioOption({ optionId, text, name, onChange, checked }) {
         onChange={onChange}
         checked={checked}
       />
-      <label htmlFor={uniqueId}>
+      <label className="radio_backgound" htmlFor={uniqueId}>
         {text}
       </label>
     </div>

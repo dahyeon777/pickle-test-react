@@ -5,11 +5,11 @@ import { testData4 } from "./testData4";
 import { testData5 } from "./testData5";
 
 export const AllTestQuestionsData = [
-  testData2, //오늘의 운세
+  testData4, //원석
   testData3, //디저트
   testData1, //판타지 직업
-  testData4,
-  testData5,
+  testData2, //오늘의 운세
+  testData5, //전생
 ];
 
 export const testDataList = AllTestQuestionsData.map((test) => ({
