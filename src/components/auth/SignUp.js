@@ -126,7 +126,7 @@ const containerStyle = {
   justifyContent: "center",
   alignItems: "center",
   height: "100vh",
-  backgroundColor: "#f9f9f9",
+  backgroundColor: "none",
 };
 const cardStyle = {
   padding: "40px",
