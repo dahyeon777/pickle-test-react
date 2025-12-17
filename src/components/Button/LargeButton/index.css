@@ -1,4 +1,4 @@
-button {
+.button1 {
   /* 1. 크기와 형태: 길쭉하고 통통한 느낌 */
   display: inline-block;
   padding: 15px 130px;
@@ -29,18 +29,18 @@ button {
 }
 
 /* 마우스 오버(Hover) 시 효과: 누르는 듯한 느낌 (색상 살짝 밝게) */
-button:hover {
+.button1:hover {
   transform: translateY(-2px);
   box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3), 0 2px 20px rgba(97, 154, 69, 0.8); /* 글로우 강조 */
 }
 
 /* 클릭(Active) 시 효과: 실제로 눌리는 듯한 느낌 (색상 유지) */
-button:active {
+.button1:active {
   transform: translateY(1px);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2), 0 1px 10px rgba(81, 140, 53, 0.5);
 }
 
-button[disabled] {
+.button1[disabled] {
   background-color: #e0e0e0; /* 회색 계열 */
   color: black;
   cursor: not-allowed; /* 커서를 금지 표시로 */

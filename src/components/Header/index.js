@@ -1,6 +1,7 @@
 import React from "react";
 import "./index.css";
 import icon from "./icon_1.png";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
@@ -20,7 +21,9 @@ function Header() {
             <a href="#">테스트 목록</a>
           </li>
           <li>
-            <a href="#">로그인</a>
+            <Link to='/login'>
+              <a href="#">로그인</a>
+            </Link>
           </li>
         </ul>
       </nav>
