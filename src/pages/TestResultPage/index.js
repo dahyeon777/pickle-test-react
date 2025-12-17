@@ -1,13 +1,30 @@
 import React, { useMemo } from "react";
 import { useLocation, useParams } from "react-router-dom";
 import "./index.css";
+import { useNavigate } from "react-router-dom";
 
 import { AllTestQuestionsData } from "../../TestData";
 
 function TestResultPage() {
   const location = useLocation();
+  const navigate = useNavigate();
   const { testStartId, finalResult: resultFromParams } = useParams();
   const testId = Number(testStartId);
+
+  const handleShare = () => {
+    // 현재 브라우저의 전체 주소를 가져옵니다.
+    const currentUrl = window.location.href;
+
+    // 클립보드에 복사
+    navigator.clipboard
+      .writeText(currentUrl)
+      .then(() => {
+        alert("결과 링크가 복사되었습니다! 친구에게 공유해보세요. ✨");
+      })
+      .catch((err) => {
+        console.error("복사 실패:", err);
+      });
+  };
 
   // state로 전달받은 결과 데이터
   const { finalResult } = location.state || {};
@@ -60,8 +77,41 @@ function TestResultPage() {
 
         <p id="description">{resultData.description}</p>
       </div>
+      <div
+        className="share_section"
+        style={{ marginTop: "30px", textAlign: "center" }}
+      >
+        <button onClick={handleShare} style={shareButtonStyle}>
+          🔗 결과 공유하기 (링크 복사)
+        </button>
+
+        <button
+          onClick={() => navigate("/")}
+          style={{
+            ...shareButtonStyle,
+            backgroundColor: "#666",
+            marginTop: "10px",
+          }}
+        >
+          🏠 다시 테스트하기
+        </button>
+      </div>
     </div>
   );
 }
 
 export default TestResultPage;
+
+// 간단한 버튼 스타일
+const shareButtonStyle = {
+  padding: "12px 24px",
+  fontSize: "16px",
+  backgroundColor: "#4CAF50",
+  color: "white",
+  border: "none",
+  borderRadius: "8px",
+  cursor: "pointer",
+  fontWeight: "bold",
+  width: "100%",
+  maxWidth: "300px",
+};
