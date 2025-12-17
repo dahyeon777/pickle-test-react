@@ -1,6 +1,6 @@
 import "./App.css";
 import Header from "./components/Header";
-import FirstPageContainer from "./pages/FirstPage/FirstPageContainer";
+import FirstPage from "./pages/FirstPage"
 import TestReadyPageContainer from "./pages/TestReadyPage/TestReadyPageContainer";
 import { Route, Routes } from "react-router-dom";
 import TestStartContainer from "./pages/TestStartPage/TestStartContainer";
@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <Header></Header>
       <Routes>
-        <Route path="/" element={<FirstPageContainer />} />
+        <Route path="/" element={<FirstPage />} />
         <Route
           path="/test_ready/:testId"
           element={<TestReadyPageContainer />}

@@ -3,6 +3,8 @@ import { useParams } from "react-router-dom";
 import { testDataList } from "../../../TestData";
 
 function TestReadyMain() {
+  //주소 뒷부분 id로 테스트 페이지 찾음
+
   // 꼬리표 (ID)를 읽어옴
   const { testId } = useParams(); // testId는 '1' 또는 '2' 등의 문자열
   const idToFind = Number(testId); // 숫자로 변환합니다.
