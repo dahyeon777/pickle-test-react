@@ -2,9 +2,9 @@ import React, { useMemo } from "react";
 import { useLocation, useParams } from "react-router-dom";
 import "./index.css";
 
-import { AllTestQuestionsData } from "../../../TestData";
+import { AllTestQuestionsData } from "../../TestData";
 
-function TestResultMain() {
+function TestResultPage() {
   const location = useLocation();
   const { testStartId, finalResult: resultFromParams } = useParams();
   const testId = Number(testStartId);
@@ -64,4 +64,4 @@ function TestResultMain() {
   );
 }
 
-export default TestResultMain;
+export default TestResultPage;

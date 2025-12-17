@@ -2,8 +2,8 @@ import "./App.css";
 import Header from "./components/Header";
 import FirstPage from "./pages/FirstPage";
 import { Route, Routes } from "react-router-dom";
-import TestStartContainer from "./pages/TestStartPage/TestStartContainer";
-import TestResultContainer from "./pages/TestResultPage/TestResultContainer";
+import TestStartPage from "./pages/TestStartPage";
+import TestResultPage from "./pages/TestResultPage";
 import TestReadyPage from "./pages/TestReadyPage";
 
 function App() {
@@ -13,13 +13,10 @@ function App() {
       <Routes>
         <Route path="/" element={<FirstPage />} />
         <Route path="/test_ready/:testId" element={<TestReadyPage />} />
-        <Route
-          path="/test_start/:testStartId"
-          element={<TestStartContainer />}
-        />
+        <Route path="/test_start/:testStartId" element={<TestStartPage />} />
         <Route
           path="/result/:testStartId/:finalResult"
-          element={<TestResultContainer />}
+          element={<TestResultPage />}
         />
       </Routes>
     </div>
