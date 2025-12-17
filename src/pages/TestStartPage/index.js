@@ -115,7 +115,11 @@ function TestStartPage() {
         </div>
       </div>
       <div>
-        <button disabled={!selectedOption} onClick={nextquestion}>
+        <button
+          style={buttonStyle}
+          disabled={!selectedOption}
+          onClick={nextquestion}
+        >
           {questionIndex === nowTest.questions.length - 1
             ? "결과 확인하기"
             : "다음 질문"}
@@ -126,3 +130,16 @@ function TestStartPage() {
 }
 
 export default TestStartPage;
+
+const buttonStyle = {
+  padding: "12px",
+  borderRadius: "6px",
+  border: "none",
+  width: "300px",
+  backgroundColor: "#4CAF50",
+  color: "white",
+  fontSize: "16px",
+  fontWeight: "bold",
+  cursor: "pointer",
+  marginTop: "10px",
+};
